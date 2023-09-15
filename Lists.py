@@ -40,20 +40,20 @@ print("List after insert() method:- ",vowels)
 #remove() method will remove a element which is passed as argument from list
 prime_numbers=[2,3,5,7,9,11]
 print(prime_numbers)
-prime_numbers.remove(9)
-print("Updated List :- ",prime_numbers)
+prime_numbers.remove(9) #This will remove the element 9 from list
+print("Updated List :- ",prime_numbers) #New updated list
 
 #pop() method will remove a element from specific position.
-language=['English','Marathi','Tamil','German','Hindi']
-removed_element=language.pop(3)
-print("Removed Element:- ",removed_element)
-print("Updated List:- ",language)
+language=['English','Marathi','Tamil','German','Hindi'] #Create a list of language
+removed_element=language.pop(3) #This will remove the element from position 3
+print("Removed Element:- ",removed_element) # This will print the element which is removed.
+print("Updated List:- ",language) #Updated List
 
 #reverse() method will reverse all the elements from list
-language.reverse()
-print("Updated List :- ",language)
+language.reverse() # This will reverse the above list 
+print("Updated List :- ",language) #Print the updated list
 
 #sort() method will sort all the elements in ascending order.
-list3=[10,50,60, 40,20, 80,100]
-list3.sort()
-print("Updated List:- ",list3)
+list3=[10,50,60, 40,20, 80,100] # Create new list
+list3.sort() # This will sort the list 
+print("Updated List:- ",list3) # New Updated list
