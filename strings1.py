@@ -21,4 +21,4 @@ print(sentence.split()) #spilt() method will split the string into substring
 print(len(sentence))  #len() check the length of string
 
 txt = "The best things in life are free"
-print("best" in txt)
+print("best" in txt)  # Check if any phrase or character is present in string use keyword 'in'
