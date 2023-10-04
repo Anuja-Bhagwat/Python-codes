@@ -1,0 +1,3 @@
+Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Good Luck!There are more contents in the file nowThere are more contents in the file nowThere are more contents in the file now
